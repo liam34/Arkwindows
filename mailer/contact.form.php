@@ -45,13 +45,11 @@ $useSMTP = true;
 if ($useSMTP) {
     // Server settings for SMTP
     $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = 'mail.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'indemandcoding@gmail.com';
     $mail->Password = '';
-    
     $mail->SMTPSecure = 'ssl';
-      
     $mail->Port = 465;
 } else {
     // Server settings for PHP's mail()
