@@ -1,10 +1,12 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF4917;
-    --secondary: #FF4917;
+    --primary: #D0925A;
+    --secondary: #45110E;
     --light: #EDF1FC;
     --dark: #17224D;
 }
+
+
 
 .fw-medium {
     font-weight: 600 !important;
@@ -430,7 +432,7 @@
 .mb-4 {
     padding-left: 0px;
     align-content: flex-start;
-    padding-top: 75px;
+    padding-top: 10px;
 
 }
 
