@@ -432,8 +432,7 @@
 .mb-4 {
     padding-left: 0px;
     align-content: flex-start;
-    padding-top: 10px;
-
+    
 }
 
 /* end sample */
@@ -554,8 +553,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--light);
-    border: 1px solid #FFFFFF;
+    color: #D0925A;
+    border: 1px solid #D0925A;
     border-radius: 35px;
     transition: .3s;
 }
@@ -569,7 +568,7 @@
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: #FFFFFF;
+    color: #D0925A;
     font-size: 15px;
     font-weight: normal;
     text-transform: capitalize;
@@ -596,5 +595,5 @@
 }
 
 .footer .copyright a {
-    color: var(--light);
+    color: #D0925A;
 }
